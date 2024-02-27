@@ -5,11 +5,12 @@
 }
 
 header{
-
+    width: 100vw;
+    height: 40px;
     display: flex;
     background-color: #6E2CF3;
     padding: 10px;
-    /* justify-content: space-around; */
+    /* justify-content: space-between; */
 
 
 }
@@ -53,13 +54,13 @@ nav{
     font-size: 15px;
 }
 
-.grp-2{
+/* .grp-2{
 
     display: flex;
     justify-content: space-around;
 
     flex-grow: 2;
-}
+} */
 
 
 .search-bar-grp{
@@ -128,7 +129,7 @@ nav{
 .grp-3{
 
     display: flex;
-    width: 40px;
+    /* width: 40px; */
     list-style-type: none;
     align-items: center;
     gap: 10px;
