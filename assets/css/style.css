@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+
+    display: flex;
+    background-color: #6E2CF3;
+    padding: 10px;
+    /* justify-content: space-around; */
+
+
+}
+
+nav{
+
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.grp-1{
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+.logo{
+
+    color: rgb(255, 255, 255);
+    /* transition: transform 0.2s ease-in-out; */
+    transition: transform 1s;
+
+}
+
+.logo:hover{
+
+    transform: rotate(-15deg);
+
+}
+
+.grp-1-itms{
+
+    text-decoration:none;
+    color: rgb(226, 225, 225);
+    font-size: 15px;
+}
+
+.grp-2{
+
+    display: flex;
+    justify-content: space-around;
+
+    flex-grow: 2;
+}
+
+
+.search-bar-grp{
+
+    width: 200px;
+    height: 30px;
+    background-color: #6E2CF3;
+    text-align: center;
+    border-radius: 5px;
+    border: rgb(199, 199, 199) solid 1px;
+    display: flex;
+    align-items: center;
+    /* padding-left: 10px; */
+    justify-content:space-between;
+    color: rgb(160, 158, 158);
+    align-self: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.search-bar-grp:hover{
+
+    width: 200px;
+    height: 30px;
+    background-color: #6E2CF3;
+    text-align: center;
+    border-radius: 5px;
+    border: #fff8cbb1 solid 1px;
+    display: flex;
+    align-items: center;
+    /* padding-left: 10px; */
+    justify-content:space-between;
+    color: white;
+
+    box-shadow: 0px 0px 0px 3px #b59d02;
+    flex-shrink: 3;
+}
+
+.search-icon{
+
+    display: flex;
+    gap: 5px;
+}
+
+.search-ok{
+
+    font-family: Bebas;
+    display: flex;
+    background-color: #3D188A;
+    font-size: 13px;
+    padding: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 3px;
+    align-items: center;
+    gap: 5px;
+}
+
+.search-ok > p{
+
+    font-size: 8px;
+
+}
+
+.grp-3{
+
+    display: flex;
+    width: 40px;
+    list-style-type: none;
+    align-items: center;
+    gap: 10px;
+}
+
+.grp-3-itms{
+
+    width: 18px;
+    color:white;
+}
+
+.grp-3-line{
+
+    width: 1px;
+    height: 30px;
+    background-color: #b59d02;
+
+}
+/* 
+.grp-3-drp{
+
+    background-color: #6E2CF3;
+    color: #3D188A;
+    
+} */
+
+.grp-3-drp-slect{
+
+    width: 50px;
+}
+
+
+
+
+@font-face {
+    font-family: "Bebas";
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
